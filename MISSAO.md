@@ -1,23 +1,13 @@
-# Projeto 07 · Feira Maker
+﻿# Feira Maker
 
-## Contexto
-Feira de artesanato e projetos maker. Visitante monta kit e fecha compra.
+## O que fazer
+1. Abra **`PRINTS.html`** neste repo (é o gabarito visual).
+2. Monte o app **parecido com o print** (não precisa ser idêntico).
+3. A regra do tema está **nas telas do print** — observe totais, badges e mensagens.
+4. Cada semana o professor libera issues novas. Faça só as da semana aberta.
 
-## Itens sugeridos
-| Produto | Preço | Estoque |
-|---------|-------|---------|
-| Chaveiro 3D | R$ 12 | 10 |
-| Adesivo IF | R$ 5 | 3 (últimas) |
-| Pulseira LED | R$ 25 | 0 |
-| Caderno craft | R$ 18 | 8 |
-| Kit Maker | R$ 40 | 5 |
+## Stack
+Node **22.23.1** · Ionic **9** standalone · Firebase de vocês
 
-## Regra do tema (obrigatória)
-**Estoque vivo**: colocar no kit reduz estoque; tirar devolve; fechar compra **não** devolve.
-Badge **Últimas unidades** se estoque > 0 e <= 3.
-
-## Firestore
-Coleção: `compras_maker`.
-
-## Visual sugerido
-Cor: amarelo / azul
+## Entrega
+Link do seu **fork** + demo: login → lista → regra do print → Firestore
